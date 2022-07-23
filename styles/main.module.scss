@@ -1,0 +1,55 @@
+.input {
+	text-align: center;
+	margin: 20px 0;
+
+	input {
+		width: 300px;
+		padding: 5px 10px;
+		text-align: center;
+	}
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: 0 auto;
+	row-gap: 20px;
+	padding-bottom: 20px;
+
+	.card {
+		width: 200px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		border: 1px solid rgb(226, 204, 204);
+		cursor: pointer;
+
+		img {
+			margin-bottom: 10px;
+		}
+
+		span {
+			font-size: .8em;
+			margin-bottom: 10px;
+			font-weight: 500;
+			font-style: italic;
+		}
+
+		.cardName {
+			color: rgba(141, 35, 129, 0.6);
+			font-size: 1.1em;
+			font-weight: 700;
+		}
+	}
+
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+}

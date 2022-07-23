@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: rgb(3, 0, 0);
+  }
+
+  img,
+  .tagline,
+  .description,
+  .abv,
+  .food_pairing {
+    margin-bottom: 20px;
+  }
+
+  .description {
+    width: 500px;
+    line-height: 1.3em;
+  }
+
+  .food_pairing ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    li:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  }
+
+}

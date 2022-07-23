@@ -1,0 +1,28 @@
+.pagination a {
+	color: #474955;
+}
+
+.pagination__list {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0 20px;
+}
+
+.pagination__list li {
+	margin-left: 10px;
+}
+
+.pagination__list li a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #474955;
+}
+
+.pagination__list li a:visited {
+	color: #7EBC3C;
+}
+
+.selectedPage {
+	color: red !important;
+}
